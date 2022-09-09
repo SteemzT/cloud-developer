@@ -45,6 +45,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     // deletes file after finished response
      deleteLocalFiles([filteredImage])
       }
+      
     );
     
   } );
