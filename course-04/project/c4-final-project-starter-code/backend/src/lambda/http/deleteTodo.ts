@@ -15,7 +15,6 @@ export const handler = middy(
     const userId = getUserId(event)
     await deleteTodo(
       todoId,
-
       userId
     )
     return {
