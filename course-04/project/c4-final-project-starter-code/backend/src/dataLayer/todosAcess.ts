@@ -21,8 +21,8 @@ export class TodosAccess {
         private readonly todosIndex = process.env.INDEX_NAME
     ) {}
     
-    // Implement async/await function for getAllTodos
-    async getAllTodos(userId: string): Promise<TodoItem[]> {
+    // Implement async/await function for get_todos
+    async get_todos(userId: string): Promise<TodoItem[]> {
         // Log info message
         log.info('Called all get todo functions')
 
